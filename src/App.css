@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+  font-family: 'Muli';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  padding: 10px 20px;
+  color: #222;
+  background-color: rgb(224,224,224);
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover, button:focus {
+  background-color: rgb(172,172,172);
 }
 
-.App-link {
-  color: #61dafb;
+.outline {
+  background-color: white;
+  color: #3D5AFD;
+  border: 1px solid #3D5AFD;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.outline:hover, .outline:focus {
+  background-color: #EAEFFF;
+}
+
+.text {
+  background-color: white;
+  color: #3D5AFD;
 }
