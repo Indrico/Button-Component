@@ -14,10 +14,21 @@ function App() {
         <Button name={`<Button disableShadow/>`} disableShadow="true" />
         <Button name={`<Button disabled/>`} disabled="disabled" />
         <Button name={`<Button variant="text" disabled/>`} variant="text" disabled="disabled" />
+        
         <Button name={`<Button startIcon="local_grocery_store"/>`} startIcon="local_grocery_store" iconName="local_grocery_store"/>
         <Button name={`<Button endIcon="local_grocery_store"/>`} endIcon="local_grocery_store" iconName="local_grocery_store"/>
+
         <Button name={`<Button startIcon="access_time_icon"/>`} startIcon="access_time_icon" iconName="access_time_icon"/>
         <Button name={`<Button endIcon="access_time_icon"/>`} endIcon="access_time_icon" iconName="access_time_icon"/>
+
+        <Button name={`<Button startIcon="album_icon"/>`} startIcon="album_icon" iconName="album_icon"/>
+        <Button name={`<Button endIcon="album_icon"/>`} endIcon="album_icon" iconName="album_icon"/>
+
+        <Button name={`<Button startIcon="battery_full"/>`} startIcon="battery_full" iconName="battery_full"/>
+        <Button name={`<Button endIcon="battery_full"/>`} endIcon="battery_full" iconName="battery_full"/>
+
+        <Button name={`<Button startIcon="bookmark_icon"/>`} startIcon="bookmark_icon" iconName="bookmark_icon"/>
+        <Button name={`<Button endIcon="bookmark_icon"/>`} endIcon="bookmark_icon" iconName="bookmark_icon"/>
       </div>
       <div className="three-columns">
         <Button name={`<Button size="sm"/>`} size="sm"/>

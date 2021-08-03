@@ -41,9 +41,9 @@ const Button = (props) => {
         <div className="button-container" style={grid}>
             <p>{props.name}</p>
             <button className={props.variant || props.color} style={customStyle} disabled={props.disabled}>
-                {props.startIcon && <Icon iconName={props.iconName} style={{marginRight: "5px"}} />}
+                {props.startIcon && <Icon iconName={props.iconName} margin="start"/>}
                 {props.disabled ? "Disabled" : "Default"}
-                {props.endIcon && <Icon iconName={props.iconName} style={{marginLeft: "5px"}}/>}
+                {props.endIcon && <Icon iconName={props.iconName} margin="end"/>}
             </button>
         </div>
     )
