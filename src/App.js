@@ -14,8 +14,10 @@ function App() {
         <Button name={`<Button disableShadow/>`} disableShadow="true" />
         <Button name={`<Button disabled/>`} disabled="disabled" />
         <Button name={`<Button variant="text" disabled/>`} variant="text" disabled="disabled" />
-        <Button name={`<Button startIcon="local_grocery_store"/>`} startIcon="local_grocery_store" />
-        <Button name={`<Button endIcon="local_grocery_store"/>`} endIcon="local_grocery_store" />
+        <Button name={`<Button startIcon="local_grocery_store"/>`} startIcon="local_grocery_store" iconName="local_grocery_store"/>
+        <Button name={`<Button endIcon="local_grocery_store"/>`} endIcon="local_grocery_store" iconName="local_grocery_store"/>
+        <Button name={`<Button startIcon="access_time_icon"/>`} startIcon="access_time_icon" iconName="access_time_icon"/>
+        <Button name={`<Button endIcon="access_time_icon"/>`} endIcon="access_time_icon" iconName="access_time_icon"/>
       </div>
       <div className="three-columns">
         <Button name={`<Button size="sm"/>`} size="sm"/>

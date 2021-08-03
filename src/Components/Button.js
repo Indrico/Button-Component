@@ -1,4 +1,4 @@
-import LocalGroceryStoreIcon from '@material-ui/icons/LocalGroceryStore';
+import Icon from './Icon'
 
 const Button = (props) => {
     let customStyle, grid;
@@ -41,9 +41,9 @@ const Button = (props) => {
         <div className="button-container" style={grid}>
             <p>{props.name}</p>
             <button className={props.variant || props.color} style={customStyle} disabled={props.disabled}>
-                {props.startIcon && <LocalGroceryStoreIcon fontSize="small" style={{marginRight: "5px"}} />}
+                {props.startIcon && <Icon iconName={props.iconName} style={{marginRight: "5px"}} />}
                 {props.disabled ? "Disabled" : "Default"}
-                {props.endIcon && <LocalGroceryStoreIcon fontSize="small" style={{marginLeft: "5px"}}/>}
+                {props.endIcon && <Icon iconName={props.iconName} style={{marginLeft: "5px"}}/>}
             </button>
         </div>
     )
